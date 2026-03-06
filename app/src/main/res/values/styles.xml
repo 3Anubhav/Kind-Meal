@@ -1,0 +1,46 @@
+<resources>
+
+    <style name="Widget.Theme.Registration_Form.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Widget.Theme.Registration_Form.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/white</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="RoundedDialog" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <style name="TabLayoutTopIndicator" parent="Widget.MaterialComponents.TabLayout">
+        <!-- Move indicator to top -->
+        <item name="tabIndicatorGravity">top</item>
+        <item name="tabIndicatorColor">@color/green_dark</item>
+        <item name="tabIndicatorHeight">3dp</item>
+
+        <!-- Tab text colors -->
+        <item name="tabTextColor">?attr/colorOnSurface</item>
+        <item name="tabSelectedTextColor">@color/green_dark</item>
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+
+        <!-- Remove default ripple and purple tint -->
+        <item name="tabRippleColor">@android:color/transparent</item>
+        <item name="backgroundTint">@android:color/white</item> <!-- Optional: Ensures white background -->
+    </style>
+
+    <style name="TabTextAppearance" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">13sp</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+</resources>

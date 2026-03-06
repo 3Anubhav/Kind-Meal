@@ -1,0 +1,18 @@
+<com.example.registration_form.PullDownSwipeRefreshLayout
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:paddingTop="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="0dp"
+        android:paddingBottom="16dp"
+        android:clipToPadding="true"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollbars="none" />
+</com.example.registration_form.PullDownSwipeRefreshLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_type">Food Type</string>
+    <string name="confirm">Confirm</string>
+    <string name="add">ADD</string>
+    <string name="default_web_client_id">444536924502-j1ns3ok6ipklrrifb0g34ed71no43uhs.apps.googleusercontent.com</string>
+    <string name="n_a">N/A</string>
+</resources>

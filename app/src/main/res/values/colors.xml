@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple">#673AB7</color>
+    <!--<color name="error_red">#FF0000</color>-->
+    <color name="normal_field">#FFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="green">#349F52</color>
+    <color name="yellow">#FFB20E</color>
+    <color name="blue">#1E88E5</color>
+    <color name="dark_yellow">#CE9A00</color>
+
+
+    <color name="green_light">#81C784</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="dark_green_primary">#2E7D32</color>
+    <color name="dark_green_dark">#1B5E20</color>
+    <color name="dark_green_accent">#43A047</color>
+    <color name="light_gray">#E0E0E0</color>
+
+    <color name="yellow_light">#FFE082</color>
+    <color name="yellow_dark">#FF8F00</color>
+    <color name="default_status_color">#FFA000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#F7F7F7</color>
+    <color name="black">#000000</color>
+    <color name="gray_dark">#757575</color>
+    <color name="gray">#808080</color>
+    <color name="light_grey">#B0B0B0</color>
+
+    <color name="light_gray_ripple">#1AFFFFFF</color>
+    <color name="very_light_gray">#E0E0E0</color>
+
+    <color name="floating_shadow">#40000000</color>
+    <color name="primary_color">#FF9800</color>
+    <color name="text_dark">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="surface_light">#FAFAFA</color>
+    <color name="surface_lighter">#FFFFFF</color>
+    <color name="status_pending_text">#FF9800</color>
+    <color name="status_pending_stroke">#33FF9800</color>
+    <color name="error_red">#F44336</color>
+    <color name="divider_color">#1F000000</color>
+    <color name="green_tint">#F1F8E9</color>
+    <color name="green_tint_dark">#C8E6C9</color>
+
+</resources>

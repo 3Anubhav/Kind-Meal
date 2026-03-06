@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Registration_Form" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">#FFFFFF</item>
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorAccent">@android:color/transparent</item>
+        <item name="android:colorEdgeEffect">@android:color/transparent</item>
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Registration_Form" parent="Base.Theme.Registration_Form">
+    <item name="android:colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.RegistrationForm" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Theme.Registration_Form.Fullscreen" parent="Theme.Registration_Form">
+        <item name="android:actionBarStyle">
+            @style/Widget.Theme.Registration_Form.ActionBar.Fullscreen
+        </item>
+    </style>
+
+</resources>

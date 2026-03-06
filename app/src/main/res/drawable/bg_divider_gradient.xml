@@ -1,0 +1,12 @@
+<!-- res/drawable/bg_divider_gradient.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="0.5dp" android:bottom="0.5dp">
+        <shape>
+            <gradient
+                android:startColor="#10000000"
+                android:centerColor="#30000000"
+                android:endColor="#10000000"
+                android:angle="0"/>
+        </shape>
+    </item>
+</layer-list>
